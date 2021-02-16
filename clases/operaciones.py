@@ -10,7 +10,7 @@ print (f"la restar dio {restar} exitosamente")
 # estamos multiplicando A y B
 multiplicar = numeroA * numeroB
 print (f"la multiplicar dio {multiplicar} exitosamente")
-# estamos diviendo A y B
+# estamos dividiendo A y B
 dividir = numeroA / numeroB
 print (f"la dividir dio {dividir} exitosamente")
 # estamos sacando el exponente de A y B
