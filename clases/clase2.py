@@ -6,9 +6,11 @@ edad = 18
 estatura = 1.66
 peso = 56 
 nombre = "Mariana Villegas"
+# vamos a ver si la edad es mayor a 15 
 print ("#"*15, "mayor edad", "#"*15)
 ismayoredad = edad <= 18 
 print (ismayoredad)
+# calculando la estatura promedio 
 print ("#"*15, "bajo la estatura promedio", "#"*15)
 ismayorestatura = estatura < 1.70 
 print (ismayorestatura) 
