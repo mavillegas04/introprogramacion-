@@ -28,5 +28,4 @@ while (numeroingresado != numerooculto and vidas >1):
 if (vidas >=0 and numeroingresado == numerooculto):
     print (mensajeganaste)
 else :
-    print (mensajeperdiste "El numero era el", numerooculto)
-    
+    print (mensajeperdiste "el numero era el", numerooculto)
