@@ -13,16 +13,16 @@ MENSAJEPERDISTE = 'haz perdido, lo siento'
 
 #-----ingresa el codigo-----#
 numerooculto = 7
-vidas = 3 
+vidas = 5
 print (MENSAJESALUDO)
-numeroingrsado = int (input (PREGUNTANUMERO))
-if (numeroingrsado != numerooculto):
+numeroingresado = int (input (PREGUNTANUMERO))
+if (numeroingresado != numerooculto):
     vidas -=1
-while (numerooculto != numeroingrsado and vidas >0):
-    numeroingrsado = int (input(PREGUNTAFALLO))
-    vidas -= 1
+while (numerooculto != numeroingresado and vidas >0):
+    numeroingresado = int (input(PREGUNTAFALLO))
+    vidas -=1
 
-if (vidas >0):
+if (vidas >=0 and numerooculto == numeroingresado):
     print (MENSAJEGANASTE)
     print (vidas)
 else:
