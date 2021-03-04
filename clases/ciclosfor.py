@@ -51,7 +51,7 @@ elif (opcion ==2):
     for iteracion in range (1,rango+1):
         if (iteracion % 2 == 0):
             print (iteracion)
-elif (opcion ==3)
+elif (opcion == 3):
     for  iteracion in range (1,11):
         if (iteracion % 2 == 0):
             print (iteracion, '--> es un numero par')
