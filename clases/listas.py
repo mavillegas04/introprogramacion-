@@ -38,7 +38,7 @@ largolistaedades = len(edades)
 for indice in range (largolistaedades):
     print ('estoy en la posicion', 
     indice, 'valgo',
-    edades [indice)]
+    edades [indice]
 largolistanombres = len (nombres)
 for indice in range (largolistanombres)
     print (nombres[indice])
