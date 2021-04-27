@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 lenguajes = ['py', 'java', 'dart', 'ts', 'elixir']
 encuenta = [50,10,20,10,10]
 plt.bar(lenguajes,encuenta)
-plt.bar (lenguajes, encuenta, width = 0.6, color = 'c')
+plt.bar (lenguajes, encuenta, width = 0.6, color = 'm')
 ###########
 #titulo
 plt.title('lenguajes mas usados')
