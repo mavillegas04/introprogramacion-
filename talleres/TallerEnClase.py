@@ -38,8 +38,8 @@ class Nutricionista ():
         me gradue de la universidad {self.universidad}, mi imc calculado es de {imc}
         """)
 final = Nutricionista (18, "mariana", "CES")
-calcularImc = final.calcularIMC (76,1.67)
-print (calcularimc)
+calcularIMC = final.calcularIMC (76,1.67)
+print (calcularIMC)
 #-----cuerto punto-----#
 class Canguro ():
     def __init__ (self, edadEntrada, idEntrada, nombreEntrada):
@@ -48,11 +48,8 @@ class Canguro ():
         self.nombre = nombreEntrada
     def saltos (self, saltar):
         for i in range (saltos):
-            pritn (f"""este canguro se llama {self.nombre}, tiene {self.edad} años,
+            print(f"""este canguro se llama {self.nombre}, tiene {self.edad} años,
             con id {self.id}, dio {i+1} saltos """)
 animal = canguro (13, 2888374563, "atto")
 animal.saltos (15)
 #-----quinto punto-----#
-class Piano ():
-    def __init__ (self, sonidoEntrada, esteticaEntrada, colorEntrada):
-        

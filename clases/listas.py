@@ -65,6 +65,6 @@ posicion = 0
 posicionespares = []
 for edad in edades:
     if (edade%2 == 0):
-        posicionespares.appende (posicion)
+        posicionespares.append (posicion)
     posicion+=1
 print (posicionespares)
