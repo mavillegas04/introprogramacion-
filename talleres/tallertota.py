@@ -11,6 +11,9 @@ for i in range (len(ciudades)):
 
 plt.title ('cantidad de habitantes es ciudades de colombia')
 plt.pie (habitantes, explode = pieExplode, labels = ciudades, shadow = True)
-plt.save ('tallertota.png')
-plt.show ()
+plt.savefig ('tallertota.png')
+plt.show () 
 
+# profe no me esta queriendo generar el grafico no se porque 
+# no me aparece ningun error ni nada solo no me lo genera
+# no se si depronto me falta algo por descargar  
